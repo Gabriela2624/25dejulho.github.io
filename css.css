@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+.fugaz-one-regular {
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5385;
+    color: #333;
+    text-align: left;
+    background-color: #f7f7f7; /* Consolidado */
+    margin: 0;
+    padding: 0;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.card-header {
+    background-color: transparent;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-bottom-width: 0;
+}
+
+.card-header .card-title {
+    margin-bottom: 0;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .1875rem;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.mt-0-20 {
+    margin-top: .20rem !important;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.images-container img {
+    width: 30%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.images-container img:hover {
+    transform: scale(1.1);
+}
+
+header {
+    background: #eafeff;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.left-side, .right-side {
+    height: 100vh;
+}
+
+.navbar-transparent {
+    background: linear-gradient(to bottom, #a6e6ff, #e1f5ff 70%); /* Gradiente do shape */
+    color: #000;
+}
+
+.navbar-nav > li > a {
+    color: #000000;
+}
+
+.navbar-nav > li:hover {
+    border-bottom: 1px solid #000000;
+}
+
+.navbar-nav > .active {
+    border-bottom: 1px solid #000000;
+}
+
+.navbar-brand {
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #0066ff;
+}
+
+.navbar-brand:hover {
+    color: #ff0000;
+}
+
+.left-side img {
+    padding-top: 100px;
+}
+
+.left-side {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shape {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffffff, #a6e6ff 60%);
+    position: absolute;
+    -webkit-clip-path: ellipse(500px 500px at 10% 5%);
+    clip-path: ellipse(500px 500px at 10% 5%);
+}
+
+.right-side {
+    padding-top: 150px;
+}
+
+.right-side h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 2.4em;
+    text-align: center;
+}
+
+.right-side p {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn.order-button {
+    background: transparent;
+    border: 2px solid #006eff;
+    color: #0077ff;
+    border-radius: 30%;
+    transition: 0.7s;
+}
+
+.btn.order-button:hover {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.content-section {
+    padding: 50px;
+}
+
+.content-title {
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: #0066ff;
+    margin-top: 20px;
+}
+
+.content-body {
+    font-size: 1.2em;
+    color: #333;
+    text-align: justify;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.step {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.click-paragraph {
+    font-size: 1rem;
+    color: #333;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.img-section {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 100%;            /* Garante que o contêiner ocupe a altura total do card */
+}
+
+.img-section img {
+    max-width: 50%;         /* Garante que a imagem não ultrapasse a largura do contêiner */
+    max-height: 100px;       /* Defina uma altura máxima para as imagens */
+    object-fit: contain;     /* Garante que a imagem não seja distorcida */
+}
+
+.section-content {
+    display: none;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.section-content p,
+.section-content ul {
+    margin-bottom: 15px;
+}
+
+.section-content h5 {
+    margin-top: 0;
+}
+
+.blue-title {
+    color: #007bff; /* Azul para o título */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content div {
+    width: 48%;
+}
+
+ol {
+    margin: 10px 0;
+}
+
+/* Adicionando foco para acessibilidade */
+a:focus, .btn:focus, .navbar-nav > li > a:focus {
+    outline: 2px solid #0066ff; /* Contorno azul para acessibilidade */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .images-container {
+        flex-direction: column; /* Muda o layout das imagens para uma coluna */
+        gap: 10px; /* Menos espaçamento entre as imagens */
+    }
+
+    .content {
+        flex-direction: column; /* Empilha as seções de conteúdo */
+    }
+
+    .content div {
+        width: 100%; /* Divs ocupam toda a largura */
+        margin-bottom: 20px; /* Espaço entre as divs */
+    }
+
+    .left-side {
+        height: auto; /* Remove o height fixo em telas pequenas */
+        padding-top: 50px; /* Ajusta o espaçamento superior */
+    }
+
+    .right-side {
+        padding-top: 50px; /* Ajusta o espaçamento superior */
+    }
+
+    .step {
+        padding: 10px; /* Menos preenchimento nos cards */
+    }
+
+    .navbar-nav {
+        text-align: center; /* Centraliza os itens do menu em telas menores */
+    }
+}
